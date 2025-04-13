@@ -1,0 +1,20 @@
+[package]
+name = "proc_micro"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.86"
+license = "Apache-2.0"
+repository = "https://github.com/schneems/proc_micro"
+documentation = "https://docs.rs/proc_micro"
+
+[dependencies]
+strum = { version = ">=0.27,<1.0", optional = true }
+proc-macro2 = "1.0"
+syn = { version = "2.0"}
+
+[dev-dependencies]
+strum = { version = ">=0.27,<1.0", features = ["derive"]}
+
+[features]
+strum = ["dep:strum"]
+default = ["strum"]
