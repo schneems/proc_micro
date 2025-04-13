@@ -1,6 +1,6 @@
 //! # Proc Micro
 //!
-//! Small convieneces for high-quality macros.
+//! Small conveniences for high-quality macros.
 //!
 //! ## Use
 //!
