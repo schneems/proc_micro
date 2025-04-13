@@ -1,5 +1,6 @@
 [package]
 name = "proc_micro"
+description = "Small conveniences for high-quality macros."
 version = "0.1.0"
 edition = "2024"
 rust-version = "1.86"
